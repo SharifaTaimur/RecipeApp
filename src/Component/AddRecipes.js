@@ -214,7 +214,7 @@ class AddRecipes extends React.Component {
                         to="/AddRecipes"
                         onClick={() => this.open("showEdit", index)}
                       >
-                        <i class="fas fa-edit"></i>
+                        <i className="fas fa-edit"></i>
                       </Link>
                     </Col>
                   </Row>
@@ -392,7 +392,7 @@ class AddRecipes extends React.Component {
             </Link>
           </div>
         </ButtonToolbar>
-        <div className="Bottom">
+        <div className="Bottom" style={{ zIndex: "-1" }}>
           <img src="/Images/FlowersBottom.png" alt="" />
         </div>
         <Link

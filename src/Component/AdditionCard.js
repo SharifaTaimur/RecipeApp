@@ -29,7 +29,7 @@ function AddittionRecipeCards(props) {
         />
         <Card.Body>
           <Card.Title>{props.itemname}</Card.Title>
-          <Card.Text>Category:"TEST"</Card.Text>
+          <Card.Text>Category:""</Card.Text>
           <div className="col text-center ">
             {/* <Link to="/RecipeModal" className="btn btn-outline-secondary btn-lg"  onClick={() => setModalShow(true)}>
                    <i className="fas fa-utensils"/> Recipe
